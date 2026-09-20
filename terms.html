@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Voice - Terms of Service</title>
+    <link rel="icon" type="image/png" href="nvfav.png">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #242424;
+            padding: 2rem;
+            text-align: center;
+            border-bottom: 1px solid #333;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            max-width: 280px;
+            height: auto;
+            flex: 1;
+        }
+
+        .layout-container {
+            flex: 1;
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 3rem 2rem;
+            gap: 3rem;
+        }
+
+        /* Sidebar / TOC Styles */
+        aside.toc {
+            width: 260px;
+            flex-shrink: 0;
+            position: sticky;
+            top: 2rem;
+            height: fit-content;
+            background-color: #242424;
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid #333;
+        }
+
+        aside.toc h3 {
+            font-size: 1.1rem;
+            color: #ffffff;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid #444;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        aside.toc nav ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 0;
+        }
+
+        aside.toc nav li {
+            margin-bottom: 0.75rem;
+        }
+
+        aside.toc nav a {
+            font-size: 0.95rem;
+            color: #aaa;
+            display: block;
+            line-height: 1.4;
+        }
+
+        aside.toc nav a:hover {
+            color: #64b5f6;
+        }
+
+        main {
+            flex: 1;
+            min-width: 0;
+        }
+
+        h1 {
+            font-size: 2.2rem;
+            color: #ffffff;
+            margin-bottom: 0.5rem;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #64b5f6;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 1px solid #333;
+            padding-bottom: 0.4rem;
+            scroll-margin-top: 2rem;
+        }
+
+        main p {
+            line-height: 1.6;
+            margin-bottom: 1.2rem;
+            color: #cccccc;
+        }
+
+        .tos-meta {
+            color: #888;
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+
+        main ul {
+            margin-bottom: 1.2rem;
+            padding-left: 1.8rem;
+            line-height: 1.6;
+            color: #cccccc;
+        }
+
+        main li {
+            margin-bottom: 0.4rem;
+        }
+
+        .rules-list li {
+            margin-bottom: 0.75rem;
+        }
+
+        footer {
+            background-color: #242424;
+            padding: 2rem;
+            text-align: center;
+            border-top: 1px solid #333;
+            font-size: 0.9rem;
+            color: #999;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        a {
+            color: #64b5f6;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #90caf9;
+        }
+
+        /* Responsive Layout for Smaller Screens */
+        @media (max-width: 850px) {
+            .layout-container {
+                flex-direction: column;
+                padding: 1.5rem;
+                gap: 2rem;
+            }
+
+            aside.toc {
+                width: 100%;
+                position: static;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="novavoice.png" alt="NV Logo">
+    </header>
+
+    <div class="layout-container">
+        <!-- Sidebar Table of Contents -->
+        <aside class="toc">
+            <h3>Contents</h3>
+            <nav>
+                <ul>
+                    <li><a href="#section-1">1. Account Creation</a></li>
+                    <li><a href="#section-2">2. Educational Use</a></li>
+                    <li><a href="#section-3">3. Prohibited Conduct</a></li>
+                    <li><a href="#section-4">4. Warranty Disclaimer</a></li>
+                    <li><a href="#section-5">5. Limitation of Liability</a></li>
+                    <li><a href="#section-6">6. Termination</a></li>
+                    <li><a href="#appendix-a">Appendix A: Rules</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main>
+            <h1>Nova Voice Terms of Service</h1>
+            <p class="tos-meta">Last updated: September 19, 2026</p>
+
+            <p>
+                This document applies to the Nova Voice ("NV") service and any future services created by the Mojavesoft Nova Voice team ("we", "our", "us"). 
+                By creating an account or accessing the service, you agree to be bound by, and henceforth accept these Terms of Service ("ToS").
+            </p>
+
+            <h2 id="section-1">1. Account Creation, Eligibility, and Transferability</h2>
+            <p>
+                To access the full features of Nova Voice, you must create an account by providing a valid username and email address. 
+                You must be at least 13 years of age (or the legal minimum age in your jurisdiction) to create an account.
+                If you are under the age of 13, you must obtain parental or legal guardian consent prior to using the service.
+            </p>
+            <p>
+                Creating a new account to evade an active ban or account termination is strictly prohibited.
+            </p>
+            <p>
+                Accounts may not be bought, sold, or commercialized. However, account access may be transferred upon death or legal incapacity via:
+            </p>
+            <ul>
+                <li>A valid Will or Transfer-on-Death (TOD) document;</li>
+                <li>A Digital Asset Memorandum or Digital Estate Plan; or</li>
+                <li>A Power of Attorney containing a Digital Assets Clause referencing RUFADAA.</li>
+            </ul>
+            <p>
+                Designated family members or legal representatives requesting account transferral must contact us with valid legal documentation.
+            </p>
+
+            <h2 id="section-2">2. Educational Use</h2>
+            <p>
+                Educators may apply for a specialized Edu Account. Edu Accounts are intended solely for instructional and classroom use and may not be used as personal accounts outside of an active class setup.
+            </p>
+
+            <h2 id="section-3">3. Prohibited Conduct</h2>
+            <p>
+                You agree not to use Nova Voice to engage in, promote, or facilitate any illegal or harmful activities, including but not limited to: harassment, cybercrime, distribution or use of illegal substances, non-consensual sexual content, or unlawful behavior. See Appendix A for detailed platform rules.
+            </p>
+
+            <h2 id="section-4">4. Disclaimer of Warranties</h2>
+            <p>
+                THE NOVA VOICE SERVICE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. YOUR USE OF THE SERVICE IS ENTIRELY AT YOUR SOLE RISK AND DISCRETION.
+            </p>
+
+            <h2 id="section-5">5. Limitation of Liability</h2>
+            <p>
+                TO THE MAXIMUM EXTENT PERMITTED BY LAW, MOJAVESOFT NOVA VOICE AND ITS DEVELOPERS SHALL NOT BE HELD LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES, OR FOR ANY USER CONDUCT OCCURRING ON OR OFF THE PLATFORM.
+            </p>
+            <p>
+                If you encounter illegal content or behavior that violates these terms, please submit a report using the in-app reporting feature.
+            </p>
+
+            <h2 id="section-6">6. Termination</h2>
+            <p>
+                We reserve the right to suspend or permanently terminate your account at any time, with or without notice, for conduct that violates these Terms of Service.
+            </p>
+
+            <h2 id="appendix-a">Appendix A: Community Rules & Conduct</h2>
+            <p>
+                All users must strictly adhere to the following community standards. Failure to abide by these rules will result in account warnings, suspension, or permanent ban:
+            </p>
+            <ul class="rules-list">
+                <li><strong>No Illegal Acts:</strong> Do not use Nova Voice to conduct, organize, or promote any illegal activity under local or international law.</li>
+                <li><strong>No Harassment or Cybercrime:</strong> Harassment, stalking, doxxing, cybercrime, or NSFW acts are strictly prohibited on the platform.</li>
+                <li><strong>Anti-Bigotry Policy:</strong> Hate speech, discrimination, bigotry, or targeted harassment based on identity will not be tolerated. Nova Voice is an inclusive space and must remain LGBTQ+ friendly. Queer slurs are stricly <strong>prohibited.</strong></li>
+            </ul>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 <a href="https://codeberg.org/GvYoutube">GvYoutube</a> / The Nova Voice developers</p>
+    </footer>
+</body>
+</html>
